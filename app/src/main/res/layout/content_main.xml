@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.math.marcos.myfirstapplication.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#216d21"
+        android:textSize="40sp"
+        android:text="@string/app_name"
+        android:id="@+id/textView" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Marathon"
+        android:id="@+id/marathonButton"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mDash"
+        android:id="@+id/dashButton"
+        android:layout_below="@+id/marathonButton"
+        android:layout_alignRight="@+id/marathonButton"
+        android:layout_alignEnd="@+id/marathonButton"
+        android:layout_alignLeft="@+id/marathonButton"
+        android:layout_alignStart="@+id/marathonButton"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Workout"
+        android:id="@+id/workoutButton"
+        android:layout_below="@+id/dashButton"
+        android:layout_alignLeft="@+id/dashButton"
+        android:layout_alignStart="@+id/dashButton"
+        android:layout_alignRight="@+id/dashButton"
+        android:layout_alignEnd="@+id/dashButton"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/About"
+        android:id="@+id/aboutButton"
+        android:layout_below="@+id/workoutButton"
+        android:layout_alignLeft="@+id/workoutButton"
+        android:layout_alignStart="@+id/workoutButton"
+        android:layout_alignRight="@+id/workoutButton"
+        android:layout_alignEnd="@+id/workoutButton"
+        android:onClick="onButtonClick" />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="72dp"
+        android:src="@mipmap/mathweight_image1"
+        android:layout_below="@+id/workoutButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/app_name" />
+
+</RelativeLayout>

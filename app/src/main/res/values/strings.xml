@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Math Gym</string>
+    <string name="Marathon">Marathon</string>
+    <string name="mDash">100m Dash</string>
+    <string name="Workout">Workout</string>
+    <string name="About">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_m_dash">mDash</string>
+    <string name="marathon_description">See how many problems you can go without stumbling?</string>
+    <string name="rules"> Remember: No Calculator, No Work, Just Your Brain!</string>
+    <string name="begin">Start</string>
+    <string name="mdash_description">See how fast you can get through these ten problems</string>
+    <string name="workout_description">Do not forget Log Day! Give your brain a good workout with these practice problems</string>
+    <string name="about_description">I created this app because I feel people do not do mental math as much as they should. In a world with calculators and computers, people do not see the need for number crunching in their heads. However, mental math helps improve memory and overall brain function. So I hope you will drop your calculators and give your brains a good math workout!</string>
+    <string name="thanks">All glory and honor goes to God, and special thanks to my friends and family, my mentor Qi Wang, and of course my ISM teacher Mrs. Clarac. </string>
+    <string name="q1">Question </string>
+    <string name="m10"> Meter</string>
+    <string name="q1p">234 - 117</string>
+    <string name="duration">Duration: </string>
+    <string name="submit">Submit</string>
+    <string name="check">Check Answer</string>
+    <string name="menu">Menu</string>
+    <string name="answer">number</string>
+    <string name="next">Next Question</string>
+</resources>

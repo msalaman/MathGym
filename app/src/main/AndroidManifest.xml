@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.math.marcos.myfirstapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.math.marcos.myfirstapplication.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.math.marcos.myfirstapplication.about" />
+        <activity android:name="com.math.marcos.myfirstapplication.marathon" />
+        <activity android:name="com.math.marcos.myfirstapplication.marathon_q1" />
+        <activity android:name="com.math.marcos.myfirstapplication.marathon_q2" />
+        <activity android:name="com.math.marcos.myfirstapplication.marathon_q3" />
+        <activity android:name="com.math.marcos.myfirstapplication.marathon_q4" />
+        <activity android:name="com.math.marcos.myfirstapplication.marathon_finished" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash_q1" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash_q2" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash_q3" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash_q4" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash_q5" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash_q6" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash_q7" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash_q8" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash_q9" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash_q10" />
+        <activity android:name="com.math.marcos.myfirstapplication.mdash_finished" />
+        <activity android:name="com.math.marcos.myfirstapplication.workout" />
+        <activity android:name="com.math.marcos.myfirstapplication.workout_q1" />
+        <activity android:name="com.math.marcos.myfirstapplication.workout_q2" />
+        <activity android:name="com.math.marcos.myfirstapplication.workout_q3" />
+        <activity android:name="com.math.marcos.myfirstapplication.workout_q4" />
+        <activity android:name="com.math.marcos.myfirstapplication.workout_q5" />
+        <activity android:name="com.math.marcos.myfirstapplication.workout_q6" />
+        <activity android:name="com.math.marcos.myfirstapplication.workout_q7" />
+        <activity android:name="com.math.marcos.myfirstapplication.workout_q8" />
+        <activity android:name="com.math.marcos.myfirstapplication.workout_q9" />
+        <activity android:name="com.math.marcos.myfirstapplication.workout_q10" />
+    </application>
+
+</manifest>
+
+
+
+
+
+
+
+
+
+
+
+
+
